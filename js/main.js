@@ -171,7 +171,7 @@ $(document).ready(function () {
 $(window).load(function () {
 
 
-
+ console.log("Window loaded")
 
 
 }); // window load end 
