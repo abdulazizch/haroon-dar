@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-    // PRELOADER
-    $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
-
-
         // PAGE LOADER
     jQuery('#grid-container').on('initComplete.cbp', function () {
         if ($('#ajax-tab-container').length) {
@@ -165,6 +161,9 @@ $(document).ready(function () {
             }]
     }); 
 
+     // PRELOADER
+     $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
+     
 }); // document ready end 
 
 
