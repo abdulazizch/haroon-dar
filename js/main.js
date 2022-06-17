@@ -161,18 +161,14 @@ $(document).ready(function () {
             }]
     }); 
 
-     // PRELOADER
-     $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
      
 }); // document ready end 
 
 
 "use strict";
 $(window).load(function () {
-
-
- console.log("Window loaded")
-
+    // PRELOADER
+    $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
 }); // window load end 
 
