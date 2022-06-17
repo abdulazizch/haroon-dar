@@ -101,65 +101,65 @@ $(document).ready(function () {
     }); 
 
     // BLOG CONTENT  
-    $('#grid-blog').cubeportfolio({
-        layoutMode: 'grid',
-        gridAdjustment: 'responsive',
-        gapVertical: 0,
-        gapHorizontal: 0,
-        mediaQueries: [{
-                width: 700,
-                cols: 3,
-            }, {
-                width: 480,
-                cols: 2,
-                options: {
-                    caption: '',
-                    gapHorizontal: 30,
-                    gapVertical: 20,
-                }
-            }, {
-                width: 320,
-                cols: 1,
-                options: {
-                    caption: '',
-                    gapHorizontal: 50,
-                }
-            }],
-            plugins: {
-                loadMore: {
-                    element: '#load-posts',
-                    action: 'click',
-                    loadItems: 3,
-                }
-            }
-    }); 
+    // $('#grid-blog').cubeportfolio({
+    //     layoutMode: 'grid',
+    //     gridAdjustment: 'responsive',
+    //     gapVertical: 0,
+    //     gapHorizontal: 0,
+    //     mediaQueries: [{
+    //             width: 700,
+    //             cols: 3,
+    //         }, {
+    //             width: 480,
+    //             cols: 2,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 30,
+    //                 gapVertical: 20,
+    //             }
+    //         }, {
+    //             width: 320,
+    //             cols: 1,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 50,
+    //             }
+    //         }],
+    //         plugins: {
+    //             loadMore: {
+    //                 element: '#load-posts',
+    //                 action: 'click',
+    //                 loadItems: 3,
+    //             }
+    //         }
+    // }); 
 
     // GALLERY WIDGET  
-    $('#widget-gallery').cubeportfolio({
-        layoutMode: 'grid',
-        gridAdjustment: 'responsive',
-        gapVertical: 0,
-        gapHorizontal: 0,
-        mediaQueries: [{
-                width: 700,
-                cols: 4,
-            }, {
-                width: 480,
-                cols: 2,
-                options: {
-                    caption: '',
-                    gapHorizontal: 30,
-                    gapVertical: 20,
-                }
-            }, {
-                width: 320,
-                cols: 1,
-                options: {
-                    caption: '',
-                    gapHorizontal: 50,
-                }
-            }]
-    }); 
+    // $('#widget-gallery').cubeportfolio({
+    //     layoutMode: 'grid',
+    //     gridAdjustment: 'responsive',
+    //     gapVertical: 0,
+    //     gapHorizontal: 0,
+    //     mediaQueries: [{
+    //             width: 700,
+    //             cols: 4,
+    //         }, {
+    //             width: 480,
+    //             cols: 2,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 30,
+    //                 gapVertical: 20,
+    //             }
+    //         }, {
+    //             width: 320,
+    //             cols: 1,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 50,
+    //             }
+    //         }]
+    // }); 
 
      
 }); // document ready end 
