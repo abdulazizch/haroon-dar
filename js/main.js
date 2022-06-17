@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // PAGE LOADER
-    $('#preloader').delay(20).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
     
     jQuery('#grid-container').on('initComplete.cbp', function () {
         if ($('#ajax-tab-container').length) {
